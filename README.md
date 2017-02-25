@@ -1,6 +1,14 @@
 # Computer-Vision-Assignments
 ## Assignment1: Camera Calibration
 
+## Idea Used
+```
+Assume that picture was taken by a fixed camera.
+In input image we already know 4 points p1,p2,p3,p4 
+which form saquare.These points represents a picture
+of a real plane where lenght of side of square is 25 cm.
+```
+
 ###Prerequisites
 ```
 
