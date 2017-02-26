@@ -1,21 +1,31 @@
 # Computer-Vision-Assignments
 
-[embed]cv_assignment3.pdf[/embed]
-
 
 ## Assignment1: Camera Calibration
 
 
 
 ## Idea Used
-```
-Assume that picture was taken by a fixed camera.
-In input image we already know 4 points p1,p2,p3,p4 
-which form saquare.These points represents a picture
-of a real plane where lenght of side of square is 25 cm.
+
+We are assuming picture to be taken from camera with some reference matrix in the scene.
+That matrix is a square in our case. So we are fixing four reference point(corners of square in real world) namely p1, p2, p3 and p4 respectively.
+Then we created a dummy image with some dummy square, with end points lets say q1, q2,q3 and q4 respectively.
+Now task was to find a matrix, which is called as HOMOGRAPHY MATRIX, which finds the relation bwtween these points i.e, it helps in converting the real world coordinate system into camera world corrdinate system and vice versa.
+Say this matrix is H.
+So ,p1*H = q1
+
+
+    p2*H = q2
+    p3*H = q3
+    p4*H = q4
+    
+    
+ Now we know actual length of square in real world i.e,  distance between p1 and p2, say L1 and similarly in camera world say L2.
+ 
+ so length of pen in real world = length of pen in camera world * L1/L2;
 ```
 
-###Prerequisites
+## Prerequisites
 ```
 
 - Opencv 3.0.0
@@ -23,7 +33,7 @@ of a real plane where lenght of side of square is 25 cm.
 ```
 
 
-##Input 
+## Input 
 ```
 Folder named as "input" contains different input images of pen.
 ```
@@ -31,7 +41,7 @@ Folder named as "input" contains different input images of pen.
 
 
 
-##How to run code 
+## How to use run code 
 ```
 - Open jupyter notebook
 - Then run the file named as "Camera_Calibration.ipynb".
