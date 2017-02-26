@@ -42,10 +42,3 @@ finally block [26] performs the task mentioned above, i.e, converting image into
 ```
 ## References:
 [Technique used] (http://math.stackexchange.com/questions/494238/how-to-compute-homography-matrix-h-from-corresponding-points-2d-2d-planar-homog).
-
-
-
-
-
-
-
