@@ -12,9 +12,8 @@ That matrix is a square in our case. So we are fixing four reference point(corne
 Then we created a dummy image with some dummy square, with end points lets say q1, q2,q3 and q4 respectively.
 Now task was to find a matrix, which is called as HOMOGRAPHY MATRIX, which finds the relation bwtween these points i.e, it helps in converting the real world coordinate system into camera world corrdinate system and vice versa.
 Say this matrix is H.
-So ,p1*H = q1
-
-
+So ,
+    p1*H = q1
     p2*H = q2
     p3*H = q3
     p4*H = q4
