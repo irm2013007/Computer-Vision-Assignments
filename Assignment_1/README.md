@@ -1,5 +1,11 @@
 # Computer-Vision-Assignments
+
+[embed]cv_assignment3.pdf[/embed]
+
+
 ## Assignment1: Camera Calibration
+
+
 
 ## Idea Used
 ```
